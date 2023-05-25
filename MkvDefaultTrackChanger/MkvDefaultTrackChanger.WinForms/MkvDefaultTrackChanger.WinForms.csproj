@@ -2,8 +2,9 @@
 
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
-    <TargetFramework>net5.0-Windows</TargetFramework>
+    <TargetFramework>net7.0</TargetFramework>
     <RootNamespace>MkvDefaultTrackChanger.WinForms</RootNamespace>
+    <ReleaseVersion>1.0</ReleaseVersion>
   </PropertyGroup>
 
   <ItemGroup>
@@ -11,7 +12,9 @@
   </ItemGroup>
   
   <ItemGroup>
-    <ProjectReference Include="..\MkvDefaultTrackChanger\MkvDefaultTrackChanger.csproj" />
+    <ProjectReference Include="..\MkvDefaultTrackChanger\MkvDefaultTrackChanger.csproj">
+      <ReferenceSourceTarget></ReferenceSourceTarget>
+    </ProjectReference>
   </ItemGroup>
 
 </Project>

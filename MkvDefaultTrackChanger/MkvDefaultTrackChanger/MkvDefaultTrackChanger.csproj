@@ -1,12 +1,13 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 	
   <PropertyGroup>
-    <TargetFramework>net5.0</TargetFramework>
+    <TargetFramework>net7.0</TargetFramework>
+    <ReleaseVersion>1.0</ReleaseVersion>
   </PropertyGroup>
   
   <ItemGroup>
-    <PackageReference Include="Eto.Forms" Version="2.6.0" />
-    <PackageReference Include="Eto.Serialization.Xaml" Version="2.6.0" />
+    <PackageReference Include="Eto.Forms" Version="2.7.5" />
+    <PackageReference Include="Eto.Serialization.Xaml" Version="2.7.5" />
   </ItemGroup>
   
   <ItemGroup>
